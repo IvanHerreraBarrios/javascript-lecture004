@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+        //Strings
+        let name = "Ivan";
+        let lastName = "Herrera";
+
+        //Concatenation
+        let gretting = "Hello, my name is " + name + " " + lastName + ".";
+        console.log(gretting);
+
+        //String interpolation
+        //Template String
+        //Backtick 
+        let gretting2 = `Hello, my name is ${name} ${lastName}`;
+        console.log(gretting2);
+
+        let ul = "<ul> <li>Spring</li> <li>Summer</li> <li>Fall</li><li>Winter</li></ul>";
+
+        console.log(ul);
+
+        let ul2 = `
+        <ul>
+            <li>Spring</li>
+            <li>Summer</li>
+            <li>Fall</li>
+            <li>Winter</li>
+        </ul>
+        `;
+
+        console.log(ul2)
+
+        let ul3 = "<ul>";
+        ul3 += "<li>Spring</li>";
+        ul3 += "<li>Summer</li>"; 
+        ul3 += "<li>Fall</li>"; 
+        ul3 += "<li>Winter</li>";
+        ul3 += "<li>Winter</li>";
+        ul3 += "</ul>";
+
+        console.log(ul3)
+    </script>
+</body>
+
+</html>
